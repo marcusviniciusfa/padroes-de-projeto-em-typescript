@@ -2,9 +2,9 @@
 
 ## Factory Method
 
-O Factory Method define uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar.
+O Factory Method define uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. Ele faz isso através de um método de criação de objetos, assim, ao invés de fazer uma chamada direta ao construtor (utilizando o `new`), as subclasses, ou as classes que irão implementar a interface do criador, chamadas de `Concrete Creator`, podem então substituir esse método para alterar o produto que será criado.
 
-<img src="./factory-method-diagram.svg" alt="Factory Method Diagram" width="50%">
+<img src="./factory-method-diagram.svg" alt="Factory Method Diagram" width="100%">
 
 ### Exemplos
 
@@ -46,7 +46,7 @@ console.log(device.getHardware()) // saída: hardware do IPhoneX
 
 Essa é implementação do Factory Method proposta no livro Padrões de Projeto, do "GoF".
 
-Primeiro, temos um interface `IPhone` (Product) e suas implementações concretas (Concrete Product), como no primeiro exemplo, sem o Factory.
+Primeiro, temos uma interface `IPhone` (Product) e suas implementações concretas (Concrete Product), como no primeiro exemplo, sem o Factory.
 
 ~~~ts
 // after-factory-method.ts
