@@ -1,12 +1,12 @@
 [⬅️ voltar](/src/creational/doc.md)
 
-## Factory Method
+## 🚧 Factory Method
 
 O Factory Method define uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. Ele faz isso através de um método de criação de objetos, assim, ao invés de fazer uma chamada direta ao construtor (utilizando o `new`), as subclasses, ou as classes que irão implementar a interface do criador, chamadas de `Concrete Creator`, podem então substituir esse método para alterar o produto que será criado.
 
 <img src="./factory-method-diagram.svg" alt="Factory Method Diagram" width="100%">
 
-### Exemplos
+### ⛏️ Implementação
 
 **Antes do Factory Method**
 
@@ -239,6 +239,6 @@ const device = orderIPhone()
 console.log(device.getHardware()) // saída: hardware do IPhoneXSMax
 ~~~
 
-### Quando usar?
+### 👷🏻‍♂️ Quando usar?
 
 Quando existem muitas formas de se implementar uma mesma interface envolvendo alguma lógica faz sentido utilizar uma fábrica dedicada ao invés de ter código duplicado.

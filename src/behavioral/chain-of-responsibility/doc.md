@@ -1,12 +1,12 @@
 [⬅️ voltar](/src/behavioral/doc.md)
 
-## Chain Of Responsibility
+## 🚧 Chain Of Responsibility
 
 O Chain Of Responsibility é um padrão que serve para evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar a solicitação. Ele encadeia os objetos receptores, passando a solicitação ao longo da cadeia de objetos sucessores até que um deles a trate. Cada receptor, também chamado de _handler_, decide se processa a solicitação ou o passa adiante para o próximo receptor na corrente. Os elos da corrente podem ser compostos dinamicamente em tempo de execução com qualquer handler que siga uma interface de handler padrão.
 
 <img src="./chain-of-responsibility-diagram.svg" alt="Chain Of Responsibility Diagram" width="100%">
 
-### Exemplos
+### ⛏️ Implementação
 
 Essa é implementação do Chain Of Responsibility proposta no livro Padrões de Projeto, do "GoF".
 
@@ -108,6 +108,6 @@ const balance = pay(201)
 console.log(balance) // saída: 99
 ~~~
 
-### Quando usar?
+### 👷🏻‍♂️ Quando usar?
 
 Pode ser utilizado quando se espera que o processamento de das solicitações (algum input) possa ser feito de várias maneiras, criando a necessidade de testes (utilizando uma estrutura com `if` ou `switch`) para atribuir o processamento da solicitação para uma parte específica de código (o que gera acoplamento e quebra do princípio [Single Responsibility](https://github.com/marcusviniciusfa/clean-code-javascript#princ%C3%ADpio-da-responsabilidade-%C3%BAnica-srp))

@@ -1,12 +1,12 @@
 [⬅️ voltar](/src/creational/doc.md)
 
-## Abstract Factory
+## 🚧 Abstract Factory
 
 O Abstract Factory fornece uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. O código cliente chama os métodos de criação de uma fábrica ao invés de criar um produto diretamente (utilizando o construtor com `new`). Cada fábrica está relacionada a uma variante do produto, sendo assim, todos os produtos que ela cria pertencem a uma mesma família.
 
 <img src="./abstract-factory-diagram.svg" alt="Abstract Factory Diagram" width="100%">
 
-### Exemplos
+### ⛏️ Implementação
 
 Essa é a implementação do Abstract Factory proposta no livro Padrões de Projeto, do "GoF".
 
@@ -141,6 +141,6 @@ function orderFurniture() {
 }
 ~~~
 
-### Quando usar?
+### 👷🏻‍♂️ Quando usar
 
 Pode ser utilizado quando existem famílias de produtos relacionados, principalmente em casos onde a lógica de criação não é tão simples. Assim, não irá depender das classes concretas dos produtos.
