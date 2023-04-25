@@ -40,6 +40,10 @@ Os padrões marcados com "check" já foram estudados, e portanto, estão devidam
 * [Estruturais](./src/structural/doc.md)
 * [Comportamentais](./src/behavioral/doc.md)
 
+## Testando os Padrões de Projeto
+
+Ao final de cada uma das documentações dos padrões existe uma seção que começa com _"E então, pode ser utilizado assim"_. Esta seção se propõe a demonstrar como um código cliente pode fazer uso do padrão aplicado. Além disso, cada padrão de projeto têm um arquivo `*.test.ts` em seu diretório, e este, contém o uso prático de um cliente (o teste). Para executar todos os testes execute o comando `npm run test` (estou considerando que já executou o comando `npm install`, anteriormente)
+
 ## Licença
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR)

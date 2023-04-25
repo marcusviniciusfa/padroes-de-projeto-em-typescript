@@ -8,7 +8,7 @@ O Abstract Factory fornece uma interface para criação de famílias de objetos 
 
 ### Exemplos
 
-Essa é implementação do Abstract Factory proposta no livro Padrões de Projeto, do "GoF".
+Essa é a implementação do Abstract Factory proposta no livro Padrões de Projeto, do "GoF".
 
 Primeiro, temos as interfaces para cada produto (`Chair`, `CoffeeTable` e `Sofa`) e as suas implementações concretas de acordo com suas famílias.
 
@@ -128,7 +128,7 @@ export class FurnitureStore {
   }
 }
 
-// client
+// cliente
 function orderFurniture() {
     const furnitureFactory = new FurnitureStore(new ModernFurnitureFactory()) // injeção de dependência
     // const furnitureFactory = new FurnitureStore(new VictorianFurnitureFactory())

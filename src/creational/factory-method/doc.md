@@ -44,7 +44,7 @@ console.log(device.getHardware()) // saída: hardware do IPhoneX
 
 **Depois do Factory Method**
 
-Essa é implementação do Factory Method proposta no livro Padrões de Projeto, do "GoF".
+Essa é a implementação do Factory Method proposta no livro Padrões de Projeto, do "GoF".
 
 Primeiro, temos uma interface `IPhone` (Product) e suas implementações concretas (Concrete Product), como no primeiro exemplo, sem o Factory.
 
@@ -95,7 +95,7 @@ E então, pode ser utilizado assim
 ~~~ts
 // after-factory-method.ts
 
-// client
+// cliente
 function orderIPhone(): IPhone {
   const factory = new IPhoneXFactory()
   return factory.createIPhone()
