@@ -2,7 +2,7 @@
   <img src="./cover.svg" alt="🚧 Padrões de Projeto em TypeScript 🚧" width="100%">
 </div>
 
-<p align="center">Este repositório contém meus estudos sobre Padrões de Projeto. É para cá que eu retornarei quando precisar relembra-los. Espero que também possa servir de referência para outros desenvolvedores</p>
+<p align="center">Este repositório contém meus estudos sobre Padrões de Projeto. É para cá que eu retornarei quando precisar relembrá-los. Espero que também possa servir de referência para outros desenvolvedores</p>
 
 ## 🚜 Uma palavra sobre
 
