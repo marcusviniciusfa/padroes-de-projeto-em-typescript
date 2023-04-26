@@ -11,6 +11,6 @@ Propõem soluções para interação e atribuição de responsabilidades entre c
 * [ ] [Memento](./memento/doc.md)
 * [ ] [Observer](./observer/doc.md)
 * [ ] [Visitor](./visitor/doc.md)
-* [ ] [Strategy](./strategy/doc.md)
+* [x] [Strategy](./strategy/doc.md)
 * [ ] [State](./state/doc.md)
 * [ ] [Template Method](./template-method/doc.md)

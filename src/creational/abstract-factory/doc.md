@@ -64,7 +64,7 @@ class ModernSofa implements Chair {
 }
 ~~~
 
-Em seguida temos a interface `FurnituryFactory`, com os seus métodos para a criação de cada produto, e as suas implementações para cada família de produto
+Em seguida temos a interface `FurnituryFactory`, com os seus métodos para a criação de cada produto, e as suas implementações para cada família de produto.
 
 ~~~ts
 // abstract-factory.ts
@@ -104,7 +104,7 @@ export class ModernFurnitureFactory {
 }
 ~~~
 
-E então, pode ser utilizado assim
+E então, pode ser utilizado assim:
 
 ~~~ts
 // abstract-factory.ts

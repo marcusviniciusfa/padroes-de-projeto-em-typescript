@@ -79,7 +79,7 @@ export class BitcoinHandler extends AccountHandler {
 }
 ~~~
 
-E então, pode ser utilizado assim
+E então, pode ser utilizado assim:
 
 ~~~ts
 // chain-of-responsibility.ts
@@ -110,4 +110,4 @@ console.log(balance) // saída: 99
 
 ### 👷🏻‍♂️ Quando usar?
 
-Pode ser utilizado quando se espera que o processamento de das solicitações (algum input) possa ser feito de várias maneiras, criando a necessidade de testes (utilizando uma estrutura com `if` ou `switch`) para atribuir o processamento da solicitação para uma parte específica de código (o que gera acoplamento e quebra do princípio [Single Responsibility](https://github.com/marcusviniciusfa/clean-code-javascript#princ%C3%ADpio-da-responsabilidade-%C3%BAnica-srp))
+Pode ser utilizado quando se espera que o processamento de das solicitações (algum input) possa ser feito de várias maneiras, criando a necessidade de testes (utilizando uma estrutura com `if` ou `switch`) para atribuir o processamento da solicitação para uma parte específica de código (o que gera acoplamento e quebra do princípio [Single Responsibility](https://github.com/marcusviniciusfa/clean-code-javascript#princ%C3%ADpio-da-responsabilidade-%C3%BAnica-srp)).

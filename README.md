@@ -24,7 +24,7 @@ O site [Refactoring Guru](https://refactoring.guru/) traz a seguinte definição
 
 > "...soluções para problemas recorrentes; orientações sobre como lidar com determinados problemas. Eles não são classes, pacotes ou bibliotecas que você pode conectar em seu aplicativo e esperar que a mágica aconteça. Estas são, antes, orientações sobre como lidar com determinados problemas em determinadas situações."
 
-## 📖 Tipos de Padrões de Projeto
+## 📋 Tipos de Padrões de Projeto
 
 Os padrões marcados com "check" já foram estudados, e portanto, estão devidamente documentados e implementados.
 

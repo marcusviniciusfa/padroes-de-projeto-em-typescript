@@ -68,7 +68,7 @@ export class IPhone11 implements IPhone {
 }
 ~~~
 
-Em seguida temos a interface `IphoneFactory` (Creator) e as suas implementações (Concrete Creator)
+Em seguida temos a interface `IphoneFactory` (Creator) e as suas implementações (Concrete Creator).
 
 ~~~ts
 // after-factory-method.ts
@@ -90,7 +90,7 @@ export class IPhone11Factory implements IPhoneFactory {
 }
 ~~~
 
-E então, pode ser utilizado assim
+E então, pode ser utilizado assim:
 
 ~~~ts
 // after-factory-method.ts
@@ -241,4 +241,4 @@ console.log(device.getHardware()) // saída: hardware do IPhoneXSMax
 
 ### 👷🏻‍♂️ Quando usar?
 
-Quando existem muitas formas de se implementar uma mesma interface envolvendo alguma lógica faz sentido utilizar uma fábrica dedicada ao invés de ter código duplicado.
+Quando existem muitas formas de se implementar uma mesma interface envolvendo alguma lógica, faz sentido utilizar uma fábrica dedicada ao invés de ter código duplicado.
